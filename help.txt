@@ -1,0 +1,42 @@
+How to play: 
+
+The purpose of the game is to collect as many stars (points) as possible without dying.
+
+N.B Player can play the game by using the up,down,right and left key of the keyboard 
+1. Start the game by pressing enter. 
+2. Pause the game by pressing enter, and restart the game by pressing enter. 
+3. Control the spaceship using the arrow keys. 
+4. Shoot a bullet by using space. The number of enemies you have killed is displayed in the upper right corner.  
+5. Each player have 3 life at start. The number of life you currently have is displayed in the upper right corner.
+6. If you collide with an enemy (UFO) you loose 1 life.
+7. If you have 0 life left then it's Game Over. 
+8. You can gain additional life by moving the spaceship and collect hearts. 
+9. Collect stars to gain points by moving the spaceship and collide with the stars. The number of points  
+   or the score you have is displayed in the upper left corner. 
+10. After collecting a certain amount of stars, a boss will appear. A boss have more life than
+    UFOs so you have to shoot it more times in order to kill it.
+11. If you collide with a boss, you die and it's Game Over.
+12. Each boss have 3 life, so you need to shoot it three times in order to kill it . 
+13. The boss will continue to reappear randomly again at the top until you are able to kill it.
+14. If you kill a boss, you earn 10 points.
+15. The moving speed of the boss will increase according to the number of point you earn. The more
+    points you have, the faster the boss will move. 
+
+Save and continue a game: 
+
+1. You can save a game by pressing a save text on the topMenuBare which finds on the very top of the gameboard.
+2. You can save as many times as you want during the game, but only the last version will be saved. 
+3. Load or continue your last game by choosing "Continue last game" in the main menu window. 
+4. When you continue a old game, you can still save the game by pressing S on the keyboard. You can continue
+   by going back to the main menu and choose continue your last game. 
+
+Difficulty levels:
+
+There's 3 different levels available. Easy, medium and hard. 
+The difference is in the number of enemies, how fast the enemies appear and how fast the enemies moves. 
+The harder the level, the faster the enemies will appear and move. It will also be more difficult to gain 
+additional life if you choose to play at a more difficult level. 
+
+
+
+GOOD LUCK! 

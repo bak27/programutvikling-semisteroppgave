@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" style="-fx-background-image: url('/Game/background2.jpg')" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.MenuController">
+    <children>
+      <Button fx:id="Help" layoutX="306.0" layoutY="327.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="230.0" text="H   E  L  P" />
+      <Button fx:id="Exit" layoutX="311.0" layoutY="400.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="230.0" text="E    X   I   T" />
+      <Button fx:id="Play" layoutX="307.0" layoutY="123.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="230.0" text="P   L   A   Y" />
+      <Button fx:id="Loading" layoutX="307.0" layoutY="191.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="230.0" text="C O N T I N U E  L A S T  G A M E" />
+      <Button fx:id="ScoreList" layoutX="307.0" layoutY="261.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="230.0" text="H I G H S C O R E  L I S T" />
+      <Label layoutX="351.0" layoutY="33.0" prefHeight="27.0" prefWidth="115.0" text="Menu">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+     
+     
+    </children>
+   <effect>
+      <ColorAdjust brightness="-0.13" />
+   </effect>
+</AnchorPane>

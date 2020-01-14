@@ -1,0 +1,6 @@
+Sam,60
+sam,20
+filip,9
+null,1
+Lee,7
+null,6

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('/Game/background2.jpg')" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.scoreController">
+   <children>
+      <Button fx:id="back" layoutX="387.0" layoutY="547.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="117.0" text="Back" />
+      <Label layoutX="333.0" layoutY="8.0" prefHeight="32.0" prefWidth="179.0" text="ScoreList">
+         <font>
+            <Font size="41.0" />
+         </font></Label>
+      <TextArea fx:id="scoreName" layoutX="70.0" layoutY="79.0" prefHeight="468.0" prefWidth="434.0" text="           ">
+         <font>
+            <Font size="30.0" />
+         </font></TextArea>
+      <TextArea fx:id="scoreScore" layoutX="503.0" layoutY="79.0" prefHeight="468.0" prefWidth="234.0" text="           ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="580.0" layoutY="51.0" prefHeight="27.0" prefWidth="80.0" text="Score">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="208.0" layoutY="47.0" prefHeight="27.0" prefWidth="117.0" text="PlayerName">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

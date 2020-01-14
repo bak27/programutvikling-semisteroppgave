@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-image: url('/Game/background2.jpg')" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.helpController">
+   <children>
+      <Label layoutX="21.0" layoutY="48.0" prefHeight="40.0" prefWidth="900.0" text="The purpose of the game is to collect as many stars (points) as possible without dying.">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label layoutX="21.0" layoutY="86.0" prefHeight="38.0" prefWidth="670.0" text="1. Start the game by pressing enter. " />
+      <Label layoutX="21.0" layoutY="116.0" prefHeight="31.0" prefWidth="615.0" text="2. Pause the game by pressing enter, and restart the game by pressing enter. " />
+      <Label layoutX="15.0" layoutY="168.0" prefHeight="27.0" prefWidth="885.0" text="4. Shoot a bullet by using space. The number of enemies you have killed is displayed in the upper right corner.  " />
+      <Label layoutX="13.0" layoutY="195.0" prefHeight="27.0" prefWidth="871.0" text="5. Each player have 3 life at start. The number of life you currently have is displayed in the upper right corner." />
+      <Label layoutX="21.0" layoutY="141.0" prefHeight="27.0" prefWidth="625.0" text="3. Control the spaceship using the arrow keys." />
+      <Label layoutX="17.0" layoutY="228.0" prefHeight="27.0" prefWidth="425.0" text="6. If you collide with an enemy (UFO) you loose 1 life." />
+      <Label layoutX="17.0" layoutY="260.0" prefHeight="27.0" prefWidth="349.0" text="7. If you have 0 life left then it's Game Over." />
+      <Label layoutX="14.0" layoutY="287.0" prefHeight="27.0" prefWidth="594.0" text="8. You can gain additional life by moving the spaceship and collect hearts. " />
+      <Label layoutX="16.0" layoutY="314.0" prefHeight="27.0" prefWidth="648.0" text="9. Collect stars to gain points by moving the spaceship and collide with the stars." />
+      <Label layoutX="32.0" layoutY="341.0" prefHeight="27.0" prefWidth="670.0" text="The number of points or the score you have is displayed in the upper left corner. " />
+      <Label layoutX="42.0" layoutY="395.0" prefHeight="27.0" prefWidth="594.0" text="more life than    UFOs so you have to shoot it more times in order to kill it." />
+      <Label layoutX="17.0" layoutY="368.0" prefHeight="27.0" prefWidth="615.0" text="10. After collecting a certain amount of stars, a boss will appear. A boss have" />
+      <Label layoutX="18.0" layoutY="503.0" prefHeight="27.0" prefWidth="327.0" text="14. If you kill a boss, you earn 10 points." />
+      <Label layoutX="21.0" layoutY="476.0" prefHeight="27.0" prefWidth="740.0" text="13. The boss will continue to reappear randomly again at the top until you are able to kill it." />
+      <Label layoutX="21.0" layoutY="449.0" prefHeight="27.0" prefWidth="633.0" text="12. Each boss have 3 life, so you need to shoot it three times in order to kill it . " />
+      <Label layoutX="16.0" layoutY="422.0" prefHeight="27.0" prefWidth="466.0" text="11. If you collide with a boss, you die and it's Game Over." />
+      <Label layoutX="21.0" layoutY="530.0" prefHeight="27.0" prefWidth="657.0" text="15. The moving speed of the boss will increase according to the points you have," />
+      <Label layoutX="42.0" layoutY="557.0" prefHeight="27.0" prefWidth="349.0" text="points you have, the faster the boss will move." />
+      <Label layoutX="21.0" layoutY="584.0" prefHeight="27.0" prefWidth="357.0" text="Save and continue a game:">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="684.0" prefHeight="27.0" prefWidth="824.0" text="3. Load or continue your last game by choosing &quot;Continue last game&quot; in the main menu window. " />
+      <Label layoutX="15.0" layoutY="657.0" prefHeight="27.0" prefWidth="900.0" text="2. You can save as many times as you want during the game, but only the last version will be saved. " />
+      <Label layoutX="15.0" layoutY="630.0" prefHeight="27.0" prefWidth="914.0" text="1. You can save a game by pressing a save text on the topMenuBare which finds on the very top of the gameboard." />
+      <Label layoutX="32.0" layoutY="738.0" prefHeight="27.0" prefWidth="615.0" text="by going back to the main menu and choose continue your last game. " />
+      <Label layoutX="11.0" layoutY="711.0" prefHeight="27.0" prefWidth="892.0" text="4. When you continue a old game, you can still save the game by pressing S on the keyboard. You can continue" />
+      <Label layoutX="33.0" layoutY="919.0" prefHeight="36.0" prefWidth="192.0" text="GOOD LUCK! ">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="865.0" prefHeight="27.0" prefWidth="837.0" text="will appear and move. It will also be more difficult to gain additional life if you choose to play at a more" />
+      <Label layoutX="28.0" layoutY="892.0" prefHeight="27.0" prefWidth="769.0" text="difficult level. " />
+      <Label layoutX="32.0" layoutY="838.0" prefHeight="27.0" prefWidth="871.0" text="how fast the enemies appear and how fast the enemies moves. The harder the level, the faster the enemies" />
+      <Label layoutX="32.0" layoutY="811.0" prefHeight="27.0" prefWidth="837.0" text="There's 3 different levels available. Easy, medium and hard.The difference is in the number of enemies," />
+      <Label layoutX="32.0" layoutY="775.0" prefHeight="27.0" prefWidth="416.0" text="Difficulty levels:">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="335.0" layoutY="17.0" prefHeight="27.0" prefWidth="161.0" text="H   E  L  P">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   <Button fx:id="back" layoutX="390.0" layoutY="918.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="117.0" text="Back" />
+      <TabPane layoutX="-30.0" layoutY="-52.0" prefHeight="200.0" prefWidth="408.0" tabClosingPolicy="UNAVAILABLE" />
+   </children>
+</AnchorPane>

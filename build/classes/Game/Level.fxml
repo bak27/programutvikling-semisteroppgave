@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" style="-fx-background-image: url('/Game/background2.jpg')" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game.LevelController">
+   <children>
+      <Button fx:id="Level2" layoutX="358.0" layoutY="271.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="59.0" prefWidth="235.0" text="M   E   D   I   U   M" />
+      <Button fx:id="Level3" layoutX="358.0" layoutY="368.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="65.0" prefWidth="235.0" text="H   A   R   D" />
+      <Button fx:id="Level1" layoutX="356.0" layoutY="160.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="59.0" prefWidth="235.0" text="E     A    S    Y" />
+     <Label layoutX="186.0" layoutY="63.0" prefHeight="72.0" prefWidth="592.0" text="Please choose your level inorder to play the game">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

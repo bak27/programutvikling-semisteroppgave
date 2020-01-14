@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.net.*?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Slider?>
+
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="Game.PlayGame">
+   	<VBox prefWidth="800" GridPane.columnSpan="2" GridPane.rowIndex="0" GridPane.rowSpan="1">
+      	<MenuBar fx:id="topMenuBar" useSystemMenuBar="true">
+      		<menus>
+      			<Menu text="File">
+      				<items>
+                     		<MenuItem onAction="#exitEvent" text="Exit" />
+      				</items>
+      			</Menu>
+      			<Menu text="Save"></Menu>
+      			<Menu text ="Help"></Menu>
+      		</menus>
+      	</MenuBar>
+   	</VBox>
+   	
+   	<HBox fx:id="board" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="1" GridPane.rowSpan="1">
+   	
+   	</HBox>
+	
+
+	<!-- TODO Add Nodes -->
+</GridPane>
+
+
